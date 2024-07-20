@@ -14,7 +14,9 @@ export default function Home() {
 
   return (
     <>
-        <div>
+        <div className=" align-middle">
+            <h1 className=" text-5xl text-white text-center">{details.org}</h1>
+            <h1 className=" text-5xl text-white text-center">{details.region}</h1>
             <h1 className=" text-5xl text-white text-center">{details.ip}</h1>
             <h1 className=" text-5xl text-white text-center">{details.city}</h1>
             <h1 className=" text-5xl text-white text-center">{details.postal}</h1>

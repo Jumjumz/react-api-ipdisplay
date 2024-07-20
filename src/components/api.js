@@ -1,5 +1,5 @@
 
-const VITE_API_KEY = import.meta.env.VITE_IPINFO_KEY;
+//const VITE_API_KEY = import.meta.env.VITE_IPINFO_KEY;
 
 export const fetchApi = async (ipAddress) => {
     try {
